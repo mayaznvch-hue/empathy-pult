@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Пульт Эмпатии</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8743b'/%3E%3Cpath d='M32 48s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 46 29c0 10.5-14 19-14 19z' fill='white'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">♥</span><div><b>Пульт Эмпатии</b><small id="stamp">загрузка…</small></div></div>
+  <select id="theme" aria-label="Тема">
+    <option value="light">Светлая</option>
+    <option value="dark">Тёмная</option>
+    <option value="arbuz">Арбуз</option>
+    <option value="asiimov">Азимов</option>
+  </select>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button data-tab="dead" class="on">⏰ Сроки</button>
+  <button data-tab="anketa">📝 Анкета → HTML</button>
+  <button data-tab="health">🩺 Здоровье сайтов</button>
+  <button data-tab="sverka">🔍 Сверка врачей</button>
+  <button data-tab="fired">🚪 Уволенный врач</button>
+</nav>
+
+<main>
+<!-- 1. СРОКИ -->
+<section id="dead" class="pane on">
+  <div class="head"><h2>Сроки лицензий, доменов и подписок</h2>
+    <p class="muted">Домены и SSL подтягиваются сами (проверка каждые 3 часа). Свои пункты хранятся только в этом браузере.</p></div>
+  <div id="deadList" class="list"></div>
+  <details class="card add"><summary>＋ Добавить срок</summary>
+    <form id="deadForm" class="grid">
+      <label>Что<input name="title" required placeholder="Например: подписка Яндекс.Бизнес"></label>
+      <label>До какого числа<input name="date" type="date" required></label>
+      <label>Тип<select name="kind"><option>Лицензия</option><option>Подписка</option><option>Домен</option><option>Хостинг</option><option>Акция</option><option>Другое</option></select></label>
+      <label>Сумма, ₽<input name="cost" inputmode="numeric" placeholder="необязательно"></label>
+      <label class="wide">Заметка<input name="note" placeholder="где продлевать, кто платит…"></label>
+      <button class="btn">Добавить</button>
+    </form>
+  </details>
+  <div class="row">
+    <button class="btn ghost" id="icsBtn">📅 В календарь телефона (.ics)</button>
+    <button class="btn ghost" id="expBtn">⬇ Скачать копию</button>
+    <label class="btn ghost">⬆ Загрузить копию<input type="file" id="impFile" accept=".json" hidden></label>
+  </div>
+  <p class="muted small">Файл .ics откроется в Календаре iPhone или Google: в нём есть напоминания за 14, 3 и 1 день до каждого срока.</p>
+</section>
+
+<!-- 2. АНКЕТА -->
+<section id="anketa" class="pane">
+  <div class="head"><h2>Анкета специалиста → HTML для Битрикса</h2>
+    <p class="muted">Перетащи анкету .docx. Файл никуда не отправляется, всё обрабатывается прямо в браузере.</p></div>
+  <label class="drop" id="drop"><input type="file" id="docx" accept=".docx" hidden>
+    <b>Перетащи анкету сюда</b><span>или нажми, чтобы выбрать файл .docx</span></label>
+  <div id="ankWork" hidden>
+    <div class="cols">
+      <div class="card">
+        <h3>Данные (можно править)</h3>
+        <div class="grid" id="ankForm"></div>
+      </div>
+      <div class="card">
+        <h3>Для карточки в админке</h3>
+        <dl class="kv" id="ankMeta"></dl>
+        <h3>Ссылки на запись (SQNS)</h3>
+        <p class="muted small">Вставь ссылки записи этого врача. Пустые останутся с пометкой «ВСТАВИТЬ ССЫЛКУ».</p>
+        <div class="grid" id="ankLinks"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row between"><h3>Готовый HTML (детальное описание, тип «HTML»)</h3>
+        <div class="row"><button class="btn" id="copyHtml">Скопировать HTML</button><button class="btn ghost" id="dlHtml">Скачать .html</button></div></div>
+      <div class="warn" id="ankWarn"></div>
+      <textarea id="ankOut" spellcheck="false"></textarea>
+      <h3>Как будет выглядеть</h3>
+      <div class="preview" id="ankPrev"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. ЗДОРОВЬЕ -->
+<section id="health" class="pane">
+  <div class="head"><h2>Здоровье сайтов</h2><p class="muted" id="hStamp"></p></div>
+  <div class="row"><button class="btn" id="pingBtn">⚡ Проверить сейчас с этого устройства</button></div>
+  <div id="hSites" class="tiles"></div>
+  <div class="cols">
+    <div class="card"><h3>Ключевые страницы empathycenter.ru</h3><table id="hPages"></table></div>
+    <div class="card"><h3>Переадресации уволенных</h3><table id="hRedir"></table></div>
+  </div>
+  <div class="card"><h3>Карта сайта</h3><div id="hMap"></div></div>
+</section>
+
+<!-- 4. СВЕРКА -->
+<section id="sverka" class="pane">
+  <div class="head"><h2>Сверка врачей: лендинг ↔ основной сайт</h2>
+    <p class="muted">Сравнивает врачей на psychiatrist-online.ru со списком на empathycenter.ru.</p></div>
+  <div class="tiles" id="svTiles"></div>
+  <div class="cols">
+    <div class="card"><h3>Есть на лендинге, но нет на основном сайте</h3><p class="muted small">Возможно, врач уволен: убрать с лендинга?</p><ul id="svOnlyLand" class="names"></ul></div>
+    <div class="card"><h3>Психиатры на основном сайте, которых нет на лендинге</h3><p class="muted small">Новенькие: добавить на лендинг?</p><ul id="svOnlyMain" class="names"></ul></div>
+  </div>
+  <p class="muted small" id="svIgnInfo"></p>
+  <details class="card"><summary>Все врачи основного сайта по разделам</summary><div id="svAll"></div></details>
+</section>
+
+<!-- 5. УВОЛЕННЫЙ -->
+<section id="fired" class="pane">
+  <div class="head"><h2>Уволенный врач → готовые переадресации</h2>
+    <p class="muted">Введи фамилию. Пульт найдёт все адреса врача в карте сайта и соберёт строки для <code>.htaccess</code> (блок «####уволенные»).</p></div>
+  <div class="card grid">
+    <label>Фамилия или адрес страницы<input id="frName" placeholder="например: Бойко или boyko"></label>
+    <label>Куда переадресовать<select id="frTo">
+      <option value="https://empathycenter.ru/staff/psychiatrists/">Список психиатров</option>
+      <option value="https://empathycenter.ru/staff/psychotherapists/">Список психотерапевтов</option>
+      <option value="https://empathycenter.ru/staff/detskiy-i-podrostkovyy-psikhiatr/">Детские психиатры</option>
+      <option value="https://empathycenter.ru/staff/psychologists/">Психологи</option>
+      <option value="https://empathycenter.ru/staff/">Все специалисты</option>
+    </select></label>
+  </div>
+  <div class="card"><h3>Найденные адреса</h3><ul id="frFound" class="names"></ul>
+    <div class="row between"><h3>Строки для .htaccess</h3><button class="btn" id="frCopy">Скопировать</button></div>
+    <textarea id="frOut" spellcheck="false" readonly></textarea>
+    <ol class="muted small steps">
+      <li>Сначала скачай копию <code>.htaccess</code> (на всякий случай для отката).</li>
+      <li>Вставь строки под строкой <code>####уволенные</code>. Формат только простой: <code>Redirect 301 путь адрес</code>. На этом сервере nginx, <code>RedirectMatch</code> не работает.</li>
+      <li>В админке выключи активность у карточки врача и его услуг, иначе он вернётся в карту сайта.</li>
+      <li>Проверить: вкладка «Здоровье сайтов» после следующей проверки или <code>curl -I адрес</code>.</li>
+    </ol>
+  </div>
+</section>
+</main>
+<footer class="muted small">Данные о сайтах — публичные, обновляются GitHub Actions. Пароли пульт не хранит и не спрашивает.</footer>
+<script src="app.js"></script>
+</body>
+</html>
