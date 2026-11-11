@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-11 00:47",
+ "checked_at": "2026-11-11 04:09",
  "sites": [
   {
    "domain": "empathycenter.ru",
    "status": 200,
-   "ms": 1794,
+   "ms": 1275,
    "error": null,
    "ssl": {
     "until": "2027-01-10",
@@ -19,7 +19,7 @@
   {
    "domain": "psychiatrist-online.ru",
    "status": 200,
-   "ms": 1655,
+   "ms": 1078,
    "error": null,
    "ssl": {
     "until": "2027-01-27",
@@ -34,7 +34,7 @@
   {
    "domain": "empathy-center.ru",
    "status": 200,
-   "ms": 1820,
+   "ms": 1156,
    "error": null,
    "ssl": {
     "until": "2027-01-30",
@@ -51,22 +51,22 @@
   {
    "path": "/",
    "status": 200,
-   "ms": 1735
+   "ms": 1354
   },
   {
    "path": "/staff/psychiatrists/",
    "status": 200,
-   "ms": 1434
+   "ms": 1396
   },
   {
    "path": "/price/",
    "status": 200,
-   "ms": 1623
+   "ms": 1094
   },
   {
    "path": "/contacts/",
    "status": 200,
-   "ms": 1686
+   "ms": 960
   }
  ],
  "redirects": [
