@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-11 16:15",
+ "checked_at": "2026-11-11 18:57",
  "main": [
   {
    "name": "Абашкина Анастасия Юрьевна",
@@ -17,16 +17,16 @@
   },
   {
    "name": "Атуев Магомедариф Асбегович",
-   "url": "/staff/neurologist/atuew-magomedarif-asbegovich/",
+   "url": "/staff/psychiatrists/atuev-magomedarif-asbegovich/",
    "sections": [
-    "Невролог"
+    "Психиатр"
    ]
   },
   {
    "name": "Атуев Магомедариф Асбегович",
-   "url": "/staff/psychiatrists/atuev-magomedarif-asbegovich/",
+   "url": "/staff/neurologist/atuew-magomedarif-asbegovich/",
    "sections": [
-    "Психиатр"
+    "Невролог"
    ]
   },
   {
@@ -45,23 +45,16 @@
   },
   {
    "name": "Богатырева Мари Львовна",
-   "url": "/staff/psychiatrists/bogatyreva-mary-lvovna/",
-   "sections": [
-    "Психиатр"
-   ]
-  },
-  {
-   "name": "Богатырева Мари Львовна",
    "url": "/staff/psychotherapists/bogatyreva-mari-lvovna-psy/",
    "sections": [
     "Психотерапевт"
    ]
   },
   {
-   "name": "Вентерева Анжелика Михайловна",
-   "url": "/staff/endocrinologists/ventereva-anzhelika-mikhaylovna/",
+   "name": "Богатырева Мари Львовна",
+   "url": "/staff/psychiatrists/bogatyreva-mary-lvovna/",
    "sections": [
-    "Эндокринолог"
+    "Психиатр"
    ]
   },
   {
@@ -69,6 +62,13 @@
    "url": "/staff/dietolog/ventereva-anzhelika-mikhaylovna-2/",
    "sections": [
     "Диетолог"
+   ]
+  },
+  {
+   "name": "Вентерева Анжелика Михайловна",
+   "url": "/staff/endocrinologists/ventereva-anzhelika-mikhaylovna/",
+   "sections": [
+    "Эндокринолог"
    ]
   },
   {
@@ -122,16 +122,16 @@
   },
   {
    "name": "Иманкулиева Карина Исаевна",
-   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/imankulieva-karina-isaevna-pod/",
+   "url": "/staff/psychiatrists/imankulieva-karina-isaevna/",
    "sections": [
-    "Детский и подростковый психиатр"
+    "Психиатр"
    ]
   },
   {
    "name": "Иманкулиева Карина Исаевна",
-   "url": "/staff/psychiatrists/imankulieva-karina-isaevna/",
+   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/imankulieva-karina-isaevna-pod/",
    "sections": [
-    "Психиатр"
+    "Детский и подростковый психиатр"
    ]
   },
   {
@@ -143,23 +143,16 @@
   },
   {
    "name": "Карасева Анна Алексеевна",
-   "url": "/staff/psychiatrists/karaseva/",
-   "sections": [
-    "Психиатр"
-   ]
-  },
-  {
-   "name": "Карасева Анна Алексеевна",
    "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/karaseva4282/",
    "sections": [
     "Детский и подростковый психиатр"
    ]
   },
   {
-   "name": "Кассаева Полина Андреевна",
-   "url": "/staff/psychotherapists/kassaeva22/",
+   "name": "Карасева Анна Алексеевна",
+   "url": "/staff/psychiatrists/karaseva/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
@@ -167,6 +160,13 @@
    "url": "/staff/psychiatrists/kassaeva-polina/",
    "sections": [
     "Психиатр"
+   ]
+  },
+  {
+   "name": "Кассаева Полина Андреевна",
+   "url": "/staff/psychotherapists/kassaeva22/",
+   "sections": [
+    "Психотерапевт"
    ]
   },
   {
@@ -234,16 +234,16 @@
   },
   {
    "name": "Москвитин Александр Владимирович",
-   "url": "/staff/psychiatrists/moskvitin/",
+   "url": "/staff/psychotherapists/moskvitin-aleksandr/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
    "name": "Москвитин Александр Владимирович",
-   "url": "/staff/psychotherapists/moskvitin-aleksandr/",
+   "url": "/staff/psychiatrists/moskvitin/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
@@ -276,16 +276,16 @@
   },
   {
    "name": "Палешева Елена Валерьевна",
-   "url": "/staff/psychotherapists/palesheva-elena2/",
+   "url": "/staff/psychiatrists/palesheva/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
    "name": "Палешева Елена Валерьевна",
-   "url": "/staff/psychiatrists/palesheva/",
+   "url": "/staff/psychotherapists/palesheva-elena2/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
@@ -332,16 +332,16 @@
   },
   {
    "name": "Сорокина Арина Андреевна",
-   "url": "/staff/psychiatrists/kulinich/",
+   "url": "/staff/psychotherapists/kulinich-arina/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
    "name": "Сорокина Арина Андреевна",
-   "url": "/staff/psychotherapists/kulinich-arina/",
+   "url": "/staff/psychiatrists/kulinich/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
@@ -402,16 +402,16 @@
   },
   {
    "name": "Удовикина Татьяна Валерьевна",
-   "url": "/staff/psychiatrists/udovikina-tatyana-valerevna/",
+   "url": "/staff/psychotherapists/udovikina-tatyana-valerevna-2/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
    "name": "Удовикина Татьяна Валерьевна",
-   "url": "/staff/psychotherapists/udovikina-tatyana-valerevna-2/",
+   "url": "/staff/psychiatrists/udovikina-tatyana-valerevna/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
@@ -465,13 +465,6 @@
   },
   {
    "name": "Черников Виктор Максимович",
-   "url": "/staff/psychiatrists/chernikov-viktor-maksimovich/",
-   "sections": [
-    "Психиатр"
-   ]
-  },
-  {
-   "name": "Черников Виктор Максимович",
    "url": "/staff/psychotherapists/chernikov-viktor-maksimovich-2/",
    "sections": [
     "Психотерапевт"
@@ -482,6 +475,13 @@
    "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/chernikov-viktor-maksimovich-detskyy/",
    "sections": [
     "Детский и подростковый психиатр"
+   ]
+  },
+  {
+   "name": "Черников Виктор Максимович",
+   "url": "/staff/psychiatrists/chernikov-viktor-maksimovich/",
+   "sections": [
+    "Психиатр"
    ]
   },
   {
@@ -507,9 +507,9 @@
   },
   {
    "name": "Штеренгарц Семён Наумович",
-   "url": "/staff/psychotherapists/shterengarts-semyen-naumovich1792/",
+   "url": "/staff/psychiatrists/shterengarts-semyen-naumovich/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
@@ -521,9 +521,9 @@
   },
   {
    "name": "Штеренгарц Семён Наумович",
-   "url": "/staff/psychiatrists/shterengarts-semyen-naumovich/",
+   "url": "/staff/psychotherapists/shterengarts-semyen-naumovich1792/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
