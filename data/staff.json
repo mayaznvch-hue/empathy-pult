@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-11 13:04",
+ "checked_at": "2026-11-11 16:15",
  "main": [
   {
    "name": "Абашкина Анастасия Юрьевна",
@@ -17,16 +17,16 @@
   },
   {
    "name": "Атуев Магомедариф Асбегович",
-   "url": "/staff/psychiatrists/atuev-magomedarif-asbegovich/",
+   "url": "/staff/neurologist/atuew-magomedarif-asbegovich/",
    "sections": [
-    "Психиатр"
+    "Невролог"
    ]
   },
   {
    "name": "Атуев Магомедариф Асбегович",
-   "url": "/staff/neurologist/atuew-magomedarif-asbegovich/",
+   "url": "/staff/psychiatrists/atuev-magomedarif-asbegovich/",
    "sections": [
-    "Невролог"
+    "Психиатр"
    ]
   },
   {
@@ -108,21 +108,14 @@
   },
   {
    "name": "Иванова Юлия Александровна",
-   "url": "/staff/psychiatrists/ivanova/",
-   "sections": [
-    "Психиатр"
-   ]
-  },
-  {
-   "name": "Иванова Юлия Александровна",
    "url": "/staff/psychotherapists/ivanova-yuliya-aleksandrovna-2/",
    "sections": [
     "Психотерапевт"
    ]
   },
   {
-   "name": "Иманкулиева Карина Исаевна",
-   "url": "/staff/psychiatrists/imankulieva-karina-isaevna/",
+   "name": "Иванова Юлия Александровна",
+   "url": "/staff/psychiatrists/ivanova/",
    "sections": [
     "Психиатр"
    ]
@@ -135,17 +128,17 @@
    ]
   },
   {
+   "name": "Иманкулиева Карина Исаевна",
+   "url": "/staff/psychiatrists/imankulieva-karina-isaevna/",
+   "sections": [
+    "Психиатр"
+   ]
+  },
+  {
    "name": "Кандаурова Юлия Сергеевна",
    "url": "/staff/psychotherapists/kandaurova-yuliya-sergeevna/",
    "sections": [
     "Психотерапевт"
-   ]
-  },
-  {
-   "name": "Карасева Анна Алексеевна",
-   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/karaseva4282/",
-   "sections": [
-    "Детский и подростковый психиатр"
    ]
   },
   {
@@ -156,10 +149,17 @@
    ]
   },
   {
-   "name": "Кассаева Полина Андреевна",
-   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/kassaeva-polina6917/",
+   "name": "Карасева Анна Алексеевна",
+   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/karaseva4282/",
    "sections": [
     "Детский и подростковый психиатр"
+   ]
+  },
+  {
+   "name": "Кассаева Полина Андреевна",
+   "url": "/staff/psychotherapists/kassaeva22/",
+   "sections": [
+    "Психотерапевт"
    ]
   },
   {
@@ -171,9 +171,9 @@
   },
   {
    "name": "Кассаева Полина Андреевна",
-   "url": "/staff/psychotherapists/kassaeva22/",
+   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/kassaeva-polina6917/",
    "sections": [
-    "Психотерапевт"
+    "Детский и подростковый психиатр"
    ]
   },
   {
@@ -234,16 +234,16 @@
   },
   {
    "name": "Москвитин Александр Владимирович",
-   "url": "/staff/psychotherapists/moskvitin-aleksandr/",
+   "url": "/staff/psychiatrists/moskvitin/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
    "name": "Москвитин Александр Владимирович",
-   "url": "/staff/psychiatrists/moskvitin/",
+   "url": "/staff/psychotherapists/moskvitin-aleksandr/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
@@ -276,16 +276,16 @@
   },
   {
    "name": "Палешева Елена Валерьевна",
-   "url": "/staff/psychiatrists/palesheva/",
+   "url": "/staff/psychotherapists/palesheva-elena2/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
    "name": "Палешева Елена Валерьевна",
-   "url": "/staff/psychotherapists/palesheva-elena2/",
+   "url": "/staff/psychiatrists/palesheva/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
@@ -318,21 +318,14 @@
   },
   {
    "name": "Смирнова Анастасия Сергеевна",
-   "url": "/staff/psychotherapists/smirnova-anastasiya-sergeevna-psy/",
-   "sections": [
-    "Психотерапевт"
-   ]
-  },
-  {
-   "name": "Смирнова Анастасия Сергеевна",
    "url": "/staff/psychiatrists/smirnova-anastasiya-sergeevna/",
    "sections": [
     "Психиатр"
    ]
   },
   {
-   "name": "Сорокина Арина Андреевна",
-   "url": "/staff/psychotherapists/kulinich-arina/",
+   "name": "Смирнова Анастасия Сергеевна",
+   "url": "/staff/psychotherapists/smirnova-anastasiya-sergeevna-psy/",
    "sections": [
     "Психотерапевт"
    ]
@@ -342,6 +335,13 @@
    "url": "/staff/psychiatrists/kulinich/",
    "sections": [
     "Психиатр"
+   ]
+  },
+  {
+   "name": "Сорокина Арина Андреевна",
+   "url": "/staff/psychotherapists/kulinich-arina/",
+   "sections": [
+    "Психотерапевт"
    ]
   },
   {
@@ -430,16 +430,16 @@
   },
   {
    "name": "Холодков Иван Сергеевич",
-   "url": "/staff/psychiatrists/kholodkov-ivan-sergeevich/",
+   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/kholodkov-ivan-sergeevich-podrostkovy/",
    "sections": [
-    "Психиатр"
+    "Детский и подростковый психиатр"
    ]
   },
   {
    "name": "Холодков Иван Сергеевич",
-   "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/kholodkov-ivan-sergeevich-podrostkovy/",
+   "url": "/staff/psychiatrists/kholodkov-ivan-sergeevich/",
    "sections": [
-    "Детский и подростковый психиатр"
+    "Психиатр"
    ]
   },
   {
@@ -465,16 +465,16 @@
   },
   {
    "name": "Черников Виктор Максимович",
-   "url": "/staff/psychotherapists/chernikov-viktor-maksimovich-2/",
+   "url": "/staff/psychiatrists/chernikov-viktor-maksimovich/",
    "sections": [
-    "Психотерапевт"
+    "Психиатр"
    ]
   },
   {
    "name": "Черников Виктор Максимович",
-   "url": "/staff/psychiatrists/chernikov-viktor-maksimovich/",
+   "url": "/staff/psychotherapists/chernikov-viktor-maksimovich-2/",
    "sections": [
-    "Психиатр"
+    "Психотерапевт"
    ]
   },
   {
@@ -507,13 +507,6 @@
   },
   {
    "name": "Штеренгарц Семён Наумович",
-   "url": "/staff/psychiatrists/shterengarts-semyen-naumovich/",
-   "sections": [
-    "Психиатр"
-   ]
-  },
-  {
-   "name": "Штеренгарц Семён Наумович",
    "url": "/staff/psychotherapists/shterengarts-semyen-naumovich1792/",
    "sections": [
     "Психотерапевт"
@@ -524,6 +517,13 @@
    "url": "/staff/detskiy-i-podrostkovyy-psikhiatr/shterengarts-semyen-naumovich-pod/",
    "sections": [
     "Детский и подростковый психиатр"
+   ]
+  },
+  {
+   "name": "Штеренгарц Семён Наумович",
+   "url": "/staff/psychiatrists/shterengarts-semyen-naumovich/",
+   "sections": [
+    "Психиатр"
    ]
   },
   {
