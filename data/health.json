@@ -1,10 +1,10 @@
 {
- "checked_at": "2026-11-13 18:54",
+ "checked_at": "2026-11-13 21:58",
  "sites": [
   {
    "domain": "empathycenter.ru",
-   "status": 502,
-   "ms": 14904,
+   "status": 200,
+   "ms": 1417,
    "error": null,
    "ssl": {
     "until": "2027-01-10",
@@ -19,7 +19,7 @@
   {
    "domain": "psychiatrist-online.ru",
    "status": 200,
-   "ms": 1107,
+   "ms": 1773,
    "error": null,
    "ssl": {
     "until": "2027-01-27",
@@ -34,7 +34,7 @@
   {
    "domain": "empathy-center.ru",
    "status": 200,
-   "ms": 1208,
+   "ms": 1686,
    "error": null,
    "ssl": {
     "until": "2027-01-30",
@@ -50,45 +50,45 @@
  "pages": [
   {
    "path": "/",
-   "status": 502,
-   "ms": 14805
+   "status": 200,
+   "ms": 1328
   },
   {
    "path": "/staff/psychiatrists/",
-   "status": 502,
-   "ms": 15040
+   "status": 200,
+   "ms": 971
   },
   {
    "path": "/price/",
-   "status": 502,
-   "ms": 14912
+   "status": 200,
+   "ms": 1243
   },
   {
    "path": "/contacts/",
-   "status": 502,
-   "ms": 15039
+   "status": 200,
+   "ms": 1222
   }
  ],
  "redirects": [
   {
    "path": "/staff/psychiatrists/boyko/",
-   "status": 502,
-   "to": null
+   "status": 301,
+   "to": "https://empathycenter.ru/staff/psychiatrists/"
   },
   {
    "path": "/price/psychiatrist/boyko/",
-   "status": 502,
-   "to": null
+   "status": 301,
+   "to": "https://empathycenter.ru/staff/psychiatrists/"
   },
   {
    "path": "/price/psychiatrist/boyko/boyko-psihiatr-pervichnyy/",
-   "status": 502,
-   "to": null
+   "status": 301,
+   "to": "https://empathycenter.ru/staff/psychiatrists/"
   },
   {
    "path": "/price/psychiatrist/boyko/info-boyko-psihiatr-pervichnyy/",
-   "status": 502,
-   "to": null
+   "status": 301,
+   "to": "https://empathycenter.ru/staff/psychiatrists/"
   },
   {
    "path": "/price/psychiatrist/boyko/boyko-psihiatr-bolnichnyy/",
